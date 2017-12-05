@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "twitter notifier ",
+  "description": "This extension allows the user to change the background color of the current page.",
+  "version": "1.0",
+
+  "background" : {
+
+  	"page" :"background.html  "
+  },
+
+
+  "permissions" :  [
+    "notifications",
+"https://twitter.com/i/notifications"
+  ]
+}
