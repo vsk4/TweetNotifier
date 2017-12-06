@@ -1,7 +1,6 @@
-# task1_4990
 
-## Rich_Notifier
-### A chrome extension
+
+### A chrome extension(Notifier)
 
 
 
