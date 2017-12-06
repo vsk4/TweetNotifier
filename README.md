@@ -6,10 +6,10 @@
 
 
 ## Steps for installaton :
-   [X] Download the notifer folder.
-   [X] In Chrome Browse Goto Right side to Click  on the threeDots icon then goto --> More Tools-->Extensions.
-   [X] In Extensions please check the Developers Mode.
-   [X] Load the downloaded unpacked extension (Notifier).
+   [x] Download the notifer folder.
+   [x] In Chrome Browse Goto Right side to Click  on the threeDots icon then goto --> More Tools-->Extensions.
+   [x] In Extensions please check the Developers Mode.
+   [x] Load the downloaded unpacked extension (Notifier).
    [x] Reload the Extension. You will get a starting popup.
    
    -- Extension is ready to use.
