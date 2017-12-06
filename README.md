@@ -14,8 +14,8 @@
    -- Extension is ready to use.
   ## Working :
   
-   #### please log into your twitter account as this extension uses ajax request from the notificationURLpage('https://twitter.com/i/notifications') of twitter.  It also grabs information form that html tags of that page to popup the notifications.
-   ###### After logging into your account, even if you close your Browser Notifications will be dislayed as a popup.
+   ##### please log into your twitter account as this extension uses ajax request from the notificationURLpage('https://twitter.com/i/notifications') of twitter.  It also grabs information form that html tags of that page to popup the notifications.
+   ###### After logging into your account, even if you close your Browser Popup of the notifications will be displayed.
    
    Only notifications of **logged in persons** will be poppedup.
    
