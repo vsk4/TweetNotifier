@@ -19,3 +19,42 @@
    
    Only notifications of **logged in persons** will be poppedup.
    
+## Algorithm
+I have set an interval which runs for every two seconds ,it checks for new notificaions i.e engine function in background.js <br/>
+**get** request grabs information from https://twitter.com/i/notifications  
+Filtering the data using jquery  Remove();<br/>
+Appending the data to the body of the HTML page.<br/>
+Using FOR loop to search for required  **li** element and storing the data items-id and text displayed in respective arrays of **ids** and **messages**
+ 
+ 
+ if(latestid== ids[0])
+            do nothing
+     else if (latestid === undefined)
+     
+              shows the staring popup
+               
+                else if(latest id not equal to first element in ids array)
+         {
+                for(j=0;j<ids.length;j++)  
+			      {
+			  	    if(latestid==ids[j])
+			  	    	break;
+			  	     else
+			  	      {
+			  	       	if(messages[j]!="")
+			  	           newtweets[j]=messages[j];
+			  	          
+			  	     }
+            }end for
+                  
+			       	latestid=ids[0];
+                
+         } end if
+         
+         if(newtweets.length=0)
+          do nothing
+          else
+           for i=0--->newtweets.length
+             print the message in newtweets array
+           end for
+         end if
