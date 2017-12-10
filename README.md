@@ -58,3 +58,12 @@ Using FOR loop to search for required  **li** element and storing the data items
              print the message in newtweets array
            end for
          end if
+
+
+
+### Modifications That are needed
+
+1.Storing the data of persons to be tracked.<br/>
+2.Filtering the notifications data so that only tweets are notified.<br/>
+3.checking if person has tweeted , and show its notificaions.
+(checking the Messages array ,if it contains the text **persons name and tweeted** notification must show up)
