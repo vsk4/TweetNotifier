@@ -20,3 +20,8 @@
 ### Modifications needed to be done :
    Creating a database, storing required twitter modules and  popping up only those module notifications.
    
+## Author
+### V.Sai Kumar
+
+[<img src="https://image.flaticon.com/icons/svg/34/34238.svg" width="30" padding="10">](https://twitter.com/_vsk4)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="30" padding="10">](https://github.com/vsk4)
