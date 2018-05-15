@@ -10,7 +10,7 @@
   - [x] Load the downloaded unpacked extension (Notifier).
   - [x] Reload the Extension. You will get a starting popup.
   - [x] Extension is ready to use.
-## After installation notifications will automatically pop-up when you are online.
+## After installation Twitter notifications will automatically pop-up when you are online.
     
    #### After logging into your account, even if you close your Browser Popup of the notifications will be displayed.
    
