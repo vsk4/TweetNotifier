@@ -10,17 +10,13 @@
   - [x] Load the downloaded unpacked extension (Notifier).
   - [x] Reload the Extension. You will get a starting popup.
   - [x] Extension is ready to use.
-  ## Working :
-  
-   ##### please log into your twitter account as this extension uses ajax request from the notificationURLpage('https://twitter.com/i/notifications') of twitter.  It also grabs information form that html tags of that page to popup the notifications.
-   ###### After logging into your account, even if you close your Browser Popup of the notifications will be displayed.
+## After installation notifications will automatically pop-up when you are online.
+    
+   #### After logging into your account, even if you close your Browser Popup of the notifications will be displayed.
    
    Only notifications of **logged in persons** will be poppedup.
    
 
-### Modifications That are needed
-
-1.Storing the data of persons to be tracked.<br/>
-2.Filtering the notifications data so that only tweets are notified.<br/>
-3.checking if person has tweeted , and show its notificaions.
-(checking the Messages array ,if it contains the text **persons name and tweeted** notification must show up)
+### Modifications needed to be done :
+   Creating a database, storing required twitter modules and  popping up only those module notifications.
+   
